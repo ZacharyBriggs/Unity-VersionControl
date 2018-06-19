@@ -18,7 +18,7 @@ public class SnowmanBehaviour : MonoBehaviour
         Rigidbody rb3d = GetComponent<Rigidbody>();
 		if(Input.GetKeyDown(KeyCode.Space))
         {
-            rb3d.AddForce(force * 20);
+            rb3d.AddForce(force * 500);
         }
 	}
 }
